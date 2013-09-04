@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>hello seajs</title>
+	<style type="text/css">
+	html,body,h1{
+		padding:0px;
+		margin:0px;
+		font-size:14px;
+	}
+	#hello-seajs{
+		-webkit-transition:color 1.5s ease;
+		-o-transition:color 1.5s ease;
+		-moz-transition:color 1.5s ease;
+		transition:color 1.5s ease;
+		font-size:12em;
+		text-align:center;
+	}
+	</style>
+	<script src="assets/scripts/seajs/sea.js" id="seajsnode"></script>
+</head>
+<body>
+	<div id="hello-seajs">Test Seajs</div>
+<script>
+	// seajs.use("application/testApp/application");  
+	seajs.use("appjs/testApp/application"); 
+</script>
+</body>
+</html>
