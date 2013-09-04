@@ -29,7 +29,7 @@ seajs.use("application/testApp/application");
 
 构建后使用
 
-seajs.use("dist/testApp/application");
+seajs.use("appjs/testApp/application");
 
 增加如何在seajs里面使用jquery插件
 
