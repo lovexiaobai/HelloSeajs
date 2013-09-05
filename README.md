@@ -29,8 +29,10 @@ seajs.use("application/testApp/application");
 
 构建后使用
 
-seajs.use("appjs/testApp/application");
+seajs.use("dist/testApp/application");
 
 增加如何在seajs里面使用jquery插件
 
 添加jquery库,源码,包装jquery库.需要修改base的源码就可以了.运行grunt build就可以了.
+
+添加cmd模块规范练习代码.
