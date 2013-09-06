@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test seajs debug</title>
+	<script src="assets/scripts/seajs/sea.js" id="seajsnode"></script>
+	<script src="assets/scripts/seajs/rootConfig2.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		seajs.use("appjs/testApp/testDebug",function(t){
+			document.write(t.doSomething());
+		});
+	</script>
+</body>
+</html>
